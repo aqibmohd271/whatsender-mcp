@@ -1,0 +1,30 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+data/
+uploads/
+sessions/
+auth_info_baileys/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+docs/api_test_output.txt
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
